@@ -1,0 +1,10 @@
+text = c.execute("SELECT * FROM personalinfo WHERE value = 'pri' ")
+x = bottom + 15 if bottom + 15 < 15 else bottom + 25
+cv2.putText(frame, text, (left +1, x), cv2.FONT_HERSHEY_SIMPLEX,
+    0.75, (0, 255, 0), 2, lineType = cv2.LINE_8)
+
+    if name != 0:
+        text = c.execute("SELECT * FROM personalinfo WHERE value = 'pri' ")
+        x = bottom + 15 if bottom+15 < 15 else bottom - 25
+        cv2.putText(frame, text, (left +1, x), cv2.FONT_HERSHEY_SIMPLEX,
+        0.75, (0, 255, 0), 2, lineType = cv2.LINE_8)
