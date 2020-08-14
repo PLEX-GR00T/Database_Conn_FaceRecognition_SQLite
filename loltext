@@ -1,3 +1,7 @@
+# This is the link of the shape predictor file link from which u can download from my google drive.
+LINK : https://drive.google.com/file/d/1a1Yx0cDAPiynrW-qN3P8neJyvdDsHCTO/view?usp=sharing
+
+
 text = c.execute("SELECT * FROM personalinfo WHERE value = 'pri' ")
 x = bottom + 15 if bottom + 15 < 15 else bottom + 25
 cv2.putText(frame, text, (left +1, x), cv2.FONT_HERSHEY_SIMPLEX,
